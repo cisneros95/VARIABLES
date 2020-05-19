@@ -69,10 +69,16 @@ namespace VARIABLES
             myLastName = Console.ReadLine();
 
             Console.WriteLine("Hello, " + myFirstName + "  " + myLastName);
+            Console.ReadLine();
             */
 
+            Console.WriteLine("Type your last name: ");
+            string myLastName = Console.ReadLine();
+            Console.WriteLine("Type your firstname: ");
+            string myFirstName = Console.ReadLine();
 
-
+            Console.WriteLine("Hello, "  + myFirstName + " " + myLastName);
+            Console.ReadLine();
 
 
         }
